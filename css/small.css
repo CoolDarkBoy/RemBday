@@ -1,0 +1,27 @@
+.body {
+    text-align: center;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.birthdayboy {
+    border-radius: 0;
+}
+
+aside.right, aside.left {
+    text-align: center;
+    float: none;
+}
+
+iframe {
+    width: 100%;
+}

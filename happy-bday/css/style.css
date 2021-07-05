@@ -1,0 +1,155 @@
+/*
+ * General Styles
+*/
+
+html{
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #DDD;
+  background-image: url(../images/candle.jpg);
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+
+
+/*
+ * Heading Styles
+*/
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border-radius: 20px 20px 0 0;
+}
+
+.contact-me {
+  padding: 25px 0 25px 0;
+}
+
+.main {
+  padding: 3px 40px 25px 40px;
+  margin : 0 auto;
+}
+
+
+
+/*
+ * Main Styles
+*/
+
+.place {
+  margin-bottom: 0px;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  text-align: right;
+  padding: 1rem;
+}
+
+
+
+/*
+ * Image Styles
+*/
+
+.birthdayboy {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  line-height: 0%;
+}
+
+
+
+/*
+ * Aside Styles
+*/
+aside.left {
+  float: left;
+  padding-left: 0.5rem;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 24px;
+}
+
+
+
+/*
+ * nth child Styles
+*/
+
+.container section:nth-child(even) {
+  background-color:lightblue;
+}
+
+.container section:nth-child(odd) {
+  background-color:#DDD;
+}
+
+.container section:nth-child(5) {
+  background-color: lightskyblue;
+}
